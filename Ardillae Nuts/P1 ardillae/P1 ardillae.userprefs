@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HiScores\Prueba.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Nivel\Creacrea.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\Cubeta_Endless.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HiScores\Prueba.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\ELvidas.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\CreaCreaEndless.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Mundo\camara_movimiento.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\vida.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\Health.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pause.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

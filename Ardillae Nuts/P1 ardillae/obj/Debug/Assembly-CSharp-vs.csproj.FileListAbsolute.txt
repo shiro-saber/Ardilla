@@ -1,0 +1,57 @@
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\UnityEditor.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\UnityEngine.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Mono.Cecil.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\nunit.framework.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Unity.DataContract.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp.dll
+C:\Archivos 1\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp.pdb
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.pdb
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\UnityEditor.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\UnityEngine.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Mono.Cecil.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\nunit.framework.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\Unity.DataContract.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+I:\backup jaime\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp.dll
+I:\backup jaime\TEC\videojeugos\P1 ardillae\obj\Debug\Assembly-CSharp.pdb
+I:\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.dll
+I:\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.pdb
+I:\P1 ardillae\Temp\bin\Debug\UnityEditor.dll
+I:\P1 ardillae\Temp\bin\Debug\UnityEngine.dll
+I:\P1 ardillae\Temp\bin\Debug\Mono.Cecil.dll
+I:\P1 ardillae\Temp\bin\Debug\nunit.framework.dll
+I:\P1 ardillae\Temp\bin\Debug\Unity.DataContract.dll
+I:\P1 ardillae\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+I:\P1 ardillae\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+I:\P1 ardillae\obj\Debug\Assembly-CSharp.dll
+I:\P1 ardillae\obj\Debug\Assembly-CSharp.pdb
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEditor.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEngine.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\nunit.framework.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp.pdb
+C:\Users\shiro_saber\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jaime\Dropbox\Ardillae Nuts\P1 ardillae\obj\Debug\Assembly-CSharp.pdb

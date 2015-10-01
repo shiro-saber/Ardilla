@@ -1,0 +1,20 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0x116)
+    Vendor:   Intel
+    VRAM:     1070 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/BaseClasses/Tags.cpp Line: 66)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: I:\P1 ardillae\Ardillae Nuts_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading I:\P1 ardillae\Ardillae Nuts_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: I:\P1 ardillae\Ardillae Nuts_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading I:\P1 ardillae\Ardillae Nuts_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.132 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
