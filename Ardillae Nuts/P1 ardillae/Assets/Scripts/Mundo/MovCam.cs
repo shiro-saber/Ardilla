@@ -10,20 +10,15 @@ public class MovCam : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //camera.transform.position = new Vector3 (0f, 645157f, -10f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        //camera.transform.position += Input.mousePosition;
-
         if (Input.GetMouseButtonDown(0))
         {
             hit_position = Input.mousePosition;
             camera_position = transform.position;
-
         }
         if (Input.GetMouseButton(0))
         {

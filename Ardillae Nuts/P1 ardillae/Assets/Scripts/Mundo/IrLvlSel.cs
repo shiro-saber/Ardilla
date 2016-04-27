@@ -13,7 +13,7 @@ public class IrLvlSel : MonoBehaviour {
 	
 	}
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Application.LoadLevel(1);
     }

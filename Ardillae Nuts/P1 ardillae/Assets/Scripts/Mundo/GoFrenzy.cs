@@ -19,7 +19,7 @@ public class GoFrenzy : MonoBehaviour {
 	
 	}
 
-	void OnMouseDown()
+    public void OnMouseDown()
 	{
 		Application.LoadLevel("frenzySelect");
 	}

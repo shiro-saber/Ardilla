@@ -13,7 +13,7 @@ public class HSgo : MonoBehaviour {
 	
 	}
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Application.LoadLevel(15);
     }

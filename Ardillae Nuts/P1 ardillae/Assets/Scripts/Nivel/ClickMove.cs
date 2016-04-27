@@ -37,31 +37,14 @@ public class ClickMove : MonoBehaviour {
 		if (mPos.x > scrnW)
 		{
 			transform.Translate(new Vector3(0.2f * Mover._spdMult, 0, 0));
-			
-			//			transform.Translate (Vector3.right * _spdMult * Time.deltaTime);
-			//			animator.SetBool("corroo",true);
-			//			rigidbody2D.velocity = new Vector2(1.3f,0f);
-			//rigidbody2D.MovePosition(rigidbody2D.position + speed * _spdMult);
-			
 			Fernanda._muevoFerDer = true;//controladores para la animacion 
 			Fernanda._muevoFerIzq = false;
-			//print("muevo");
-			
 		}
 		else if (mPos.x<scrnW)
 		{
 			transform.Translate(new Vector3(-0.2f * Mover._spdMult, 0, 0));
-			
-			//			transform.Translate (Vector3.left * _spdMult * Time.deltaTime);
-			//			animator.SetBool("corroo",true);
-			//			rigidbody2D.velocity = new Vector2(-1.3f,0f);
-			//rigidbody2D.MovePosition(rigidbody2D.position - speed * _spdMult);
-			
 			Fernanda._muevoFerIzq = true;//controladores para la animacion 
 			Fernanda._muevoFerDer = false;
-			//print("muevo");
 		}
-		
-		
 	}
 }

@@ -10,22 +10,12 @@ public class CameraFollow : MonoBehaviour
     public float ySmooth = 8f;		// How smoothly the camera catches up with it's target movement in the y axis.
     public Vector2 maxXAndY;		// The maximum x and y coordinates the camera can have.
     public Vector2 minXAndY;		// The minimum x and y coordinates the camera can have.
-
     private Transform player;		// Reference to the player's transform.
-
-//	public GameObject fer;
-//	private Vector2 mPos= new Vector2(0f,0f);
-//	private float scrnW;
-
-
-
 
     void Awake()
     {
         // Setting up the reference.
         player = GameObject.FindGameObjectWithTag("Player").transform;
-		//print (GameObject.FindGameObjectWithTag("Player").name);
-//		scrnW = Screen.width/2;
     }
 
 

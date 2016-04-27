@@ -14,7 +14,7 @@ public class LoadCreditos : MonoBehaviour {
 	}
 
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Application.LoadLevel(5);
     }

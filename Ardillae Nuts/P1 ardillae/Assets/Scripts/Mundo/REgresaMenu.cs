@@ -12,7 +12,7 @@ public class REgresaMenu : MonoBehaviour {
 	void Update () {
 	
 	}
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Application.LoadLevel(0);
     }

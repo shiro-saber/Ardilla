@@ -18,7 +18,7 @@ public class GoEndless : MonoBehaviour {
 	
 	}
 
-	void OnMouseDown()
+	public void OnMouseDown()
 	{
 		Application.LoadLevel(6);
 	}

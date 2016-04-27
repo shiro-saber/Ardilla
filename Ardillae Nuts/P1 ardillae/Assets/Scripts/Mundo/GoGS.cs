@@ -18,7 +18,7 @@ public class GoGS : MonoBehaviour {
 	
 	}
 
-	void OnMouseDown()
+	public void goGSelect()
 	{
 		Application.LoadLevel ("gameSelect");
 	}

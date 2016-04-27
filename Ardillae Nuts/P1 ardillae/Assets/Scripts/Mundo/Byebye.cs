@@ -16,7 +16,7 @@ public class Byebye : MonoBehaviour
 
     }
 
-    void OnMouseDown() // esta funcion detecta el click para darle fin a la aplicacion.
+    public void OnMouseDown() // esta funcion detecta el click para darle fin a la aplicacion.
     {
         //print("se clikeo"); // esto es una prueba de que el colider esta funcionando
         Application.Quit();
