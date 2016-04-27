@@ -45,15 +45,11 @@ public class Cubeta : MonoBehaviour
                 gChanged = false;
             }
         }// regresa la gravedad a la normalidadt
-        //print (Physics.gravity.ToString);
-        //print (frames);
-
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
         //funcion para detectar que esta entrando ala cubeta de fernanda
-        //print ("colisiono");
         if (col.gameObject.tag == "nut")
         {
             sharmuta.gameObject.GetComponent<AudioSource>().Play();
@@ -62,16 +58,12 @@ public class Cubeta : MonoBehaviour
         }
         else if (col.gameObject.tag == "bomb2")
         {
-            //col.gameObject.audio.Play();
             kuz.gameObject.GetComponent<AudioSource>().Play();
             if (Puntos.leScore > 4)//evitamos score negativo
-            {
                 Puntos._puntos = -5;//restamos del contador de neuces
-            }
             else
-            {
                 Puntos.leScore = 0;
-            }
+         
             BombAnim.transform.position = col.transform.position;
             Destroy(col.gameObject);
         }
@@ -83,7 +75,6 @@ public class Cubeta : MonoBehaviour
         }
         else if (col.gameObject.tag == "dest")
         {
-            //Destroy(GameObject.Find("temp bomb(Clone)"));
             zain.gameObject.GetComponent<AudioSource>().Play();
             tutzke = GameObject.FindGameObjectsWithTag("bomb2");
             modishne = tutzke.Length;
@@ -111,9 +102,6 @@ public class Cubeta : MonoBehaviour
         }
         else if (col.gameObject.tag == "golden")
         {
-
-            //PlayerPrefs.SetInt("bool1", 1);
-
             //switch para desbloqueo de niveles
             tajat.gameObject.GetComponent<AudioSource>().Play();
             switch (PlayerPrefs.GetInt("nivel"))
@@ -182,21 +170,14 @@ public class Cubeta : MonoBehaviour
                 case 16:
                     PlayerPrefs.SetInt("bool16", 1);
                     break;
-
             }
-
 
             Puntos._puntos = (10 * Puntos._pwrpuntos);
             Destroy(col.gameObject);
-
         }
-        /*
-        revisamos que objeto choco con el collider de la cubeta
-        dependiendo el objeto es el metodo que se manda llamar
-        y es destruido 
 
-          */
-
-
+        /* revisamos que objeto choco con el collider de la cubeta
+           dependiendo el objeto es el metodo que se manda llamar
+           y es destruido */
     }
 }

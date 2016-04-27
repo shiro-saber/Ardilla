@@ -32,6 +32,13 @@ public class Reset : MonoBehaviour {
         PlayerPrefs.SetInt("bool13", 0);
         PlayerPrefs.SetInt("bool14", 0);
         PlayerPrefs.SetInt("bool15", 0);
+        PlayerPrefs.SetInt("HSstory", 0);
+        PlayerPrefs.SetInt("HSFeasy", 0);
+        PlayerPrefs.SetInt("HSFmed", 0);
+        PlayerPrefs.SetInt("HSFhard", 0);
+        PlayerPrefs.SetInt("HSELeasy", 0);
+        PlayerPrefs.SetInt("HSELmed", 0);
+        PlayerPrefs.SetInt("HSELhard", 0);
         //booleanos aproximados con integros ya que unity no tiene set/get bool
 
     }
