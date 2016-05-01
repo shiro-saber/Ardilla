@@ -16,7 +16,7 @@ public class Lvl1 : MonoBehaviour
 
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         //print ("debria ir a lvl 1");
         PlayerPrefs.SetInt("nivel", 1);

@@ -39,9 +39,7 @@ public class MovCam : MonoBehaviour
 
         // Invert direction to that terrain appears to move with the mouse.
         direction = direction * -1;
-
         Vector3 position = camera_position + direction;
-
         transform.position = position;
     }
 }

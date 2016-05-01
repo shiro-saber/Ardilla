@@ -13,10 +13,10 @@ public class Reset : MonoBehaviour {
 	
 	}
 
-    void OnMouseDown() // esta funcion detecta el click para darle fin a la aplicacion.
+    public void OnMouseDown() // esta funcion detecta el click para darle fin a la aplicacion.
     {
        //resetea el progreso del jeugo 
-        print("se reseteo");
+        //print("se reseteo");
         PlayerPrefs.SetInt("bool1", 0);
         PlayerPrefs.SetInt("bool2", 0);
         PlayerPrefs.SetInt("bool3", 0);

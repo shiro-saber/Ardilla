@@ -19,6 +19,7 @@ public class Prueba : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        /* Cambio a uso de canvas para Unity 5 */
         tujefe = GetComponentsInChildren<Text>();
         
         tujefe[1].text += PlayerPrefs.GetInt("HSstory");
@@ -29,7 +30,6 @@ public class Prueba : MonoBehaviour
         tujefe[6].text += PlayerPrefs.GetInt("HSELmed");
         tujefe[7].text += PlayerPrefs.GetInt("HSELhard");
 
-        /* Debug scores */
         /*int uno, dos, tres, cuatro, cinco, seis, tuputamadre;
 
         uno = PlayerPrefs.GetInt("HSstory");
