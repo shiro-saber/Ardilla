@@ -10,6 +10,8 @@ using System.Collections;
 public class Timer : MonoBehaviour
 {
     public static float timer;
+    public static float timereamela;
+    bool kuz;
     public Creacrea cc;
     public GUIText pts;
 	public CreaDoradas cd;
@@ -21,39 +23,45 @@ public class Timer : MonoBehaviour
     void Start()
     {
         norepetir = true;
+        kuz = false; //para cambiar los textos
         timer = 30f;//tiempo inicial
+        timereamela = 10f; //tiempo para coger lluvia dorada
         Puntos._elMensaje = "Nueces: "; //inicializa el mensaje del gui text de puntos
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer -= Time.deltaTime;
-        this.GetComponent<GUIText>().text = "Time: " + Mathf.Abs((int)timer);//muestra el tiempo
-        if (timer < 10)
+        
+        if (!kuz)
         {
-            this.GetComponent<GUIText>().color = Color.red;//color rojo para avisar que se acaba el tiempo
+            timer -= Time.deltaTime;
+            this.GetComponent<GUIText>().text = "Time: " + Mathf.Abs((int)timer);//muestra el tiempo
         }
+        else
+        {
+            timereamela -= Time.deltaTime;
+            this.GetComponent<GUIText>().text = "Time: " + Mathf.Abs((int)timereamela);//muestra el tiempo
+        }
+
+        if (timer < 10)
+            this.GetComponent<GUIText>().color = Color.red;//color rojo para avisar que se acaba el tiempo
+  
         if (timer < 0)
         {
             cc.enabled = false;
             if (Puntos.leScore > (PlayerPrefs.GetInt("minNuez") - 1))
             {
-                
+                kuz = true;
+                pts.color = Color.yellow;// al terminar el tiempo    
                 Puntos._elMensaje = "LO LOGRASTE: ";
-                //lluviaDorada = GameObject.FindGameObjectsWithTag("golden");
-                //if (lluviaDorada.Length == 0)
-                //{
-                //    Application.LoadLevel("lvl select");//termina el nivel y regresa el menu principal
-                //}
             }
             else
             {
+                pts.color = Color.red;
                 Puntos._elMensaje = "NO LO LOGRASTE: ";
                 StartCoroutine(MyLoadLevel(1.0f));
             }
-            pts.color = Color.yellow;// al terminar el tiempo 
-
         }
 
 		if (Puntos.leScore > (PlayerPrefs.GetInt("minNuez")-1) && timer<  0) {
@@ -70,6 +78,6 @@ public class Timer : MonoBehaviour
     IEnumerator MyLoadLevel(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Application.LoadLevel("scene select");
+        Application.LoadLevel("lvl select");
     }
 }
