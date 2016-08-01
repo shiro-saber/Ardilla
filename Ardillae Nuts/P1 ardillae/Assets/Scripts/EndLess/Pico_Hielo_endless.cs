@@ -68,22 +68,23 @@ public class Pico_Hielo_endless : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            /*//             print("colisiono"+ xxx++);
-            //print(Puntos._puntos);
-            //Puntos._puntos = -7;
-            if (Puntos.leScore > 6)//evitamos score negativo
+            Collider2D zain = col.collider; //kguardar el collider el jugador 
+            //print(zain.name);print(zain.tag);
+            //sacamos los vectores de la colision para comparar y empujarsela a fer
+            Vector3 abdul = col.contacts[0].point;//punto en el que hizo contacto
+            Vector3 mohammed = zain.bounds.center;
+            if(abdul.x < mohammed.x)
             {
-                Puntos._puntos = -7;//restamos del contador de neuces
-                //Cubeta_Endless.vaginas -= 1;
-                health.ModifyHealth(-10);
+                //empujar a la derecha
+                //print("derecha");
+                col.gameObject.transform.Translate(new Vector2(2f, 0f));
             }
-            else
+            else if(abdul.x > mohammed.x)
             {
-                Puntos.leScore = 0;
-                //Cubeta_Endless.vaginas -= 1;
+                //empujar a la izquierda
+                //print("izquierda");
+                col.gameObject.transform.Translate(new Vector2(-2f, 0f));
             }
-            //Cubeta_Endless.i++;
-            health.ModifyHealth(-10);*/
             ELvidas.cont -= 1;
         }
     }

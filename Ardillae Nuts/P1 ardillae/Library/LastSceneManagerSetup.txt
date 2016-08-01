@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/menus/lvl select.unity
+- path: Assets/Scenes/menus/frenzySelect.unity
   isLoaded: 1
   isActive: 1

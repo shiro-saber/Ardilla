@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="P1 ardillae.CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Mundo\GoGS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EndLess\Picos_Endless.cs">
     <Files>
+      <File FileName="Assets\Scripts\EndLess\Picos_Endless.cs" Line="29" Column="35" />
       <File FileName="Assets\Scripts\Mundo\GoGS.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HiScores\Prueba.cs" Line="30" Column="52" />
+      <File FileName="Assets\Scripts\HiScores\Prueba.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Nivel\Creacrea.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EndLess\Cubeta_Endless.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EndLess\ELvidas.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\Cubeta_Endless.cs" Line="17" Column="1" />
+      <File FileName="Assets\Scripts\EndLess\ELvidas.cs" Line="80" Column="47" />
       <File FileName="Assets\Scripts\EndLess\CreaCreaEndless.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Mundo\camara_movimiento.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EndLess\vida.cs" Line="1" Column="1" />

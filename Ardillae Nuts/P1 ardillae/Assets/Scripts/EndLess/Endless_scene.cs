@@ -18,7 +18,7 @@ public class Endless_scene : MonoBehaviour {
 	
 	}
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
 		print ("click");
         if(this.gameObject.name == "ELeasy")
